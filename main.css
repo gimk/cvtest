@@ -25,7 +25,6 @@ body {
     transition: 1s;
 }
 
-
 .textbox {
     color: #454545;
     background-color: whitesmoke;
@@ -81,4 +80,21 @@ footer {
 #footer1 {
     margin: 12.5px auto;
     width: 500px;
+}
+
+.imgbox {
+    color: #454545;
+    background-color: whitesmoke;
+    width: 500px;
+    text-align: justify;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 5px;
+    transition: 1s;
+}
+
+.imgbox:hover {
+    background-color: greenyellow;
+    transition: 1s;
 }

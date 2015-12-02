@@ -1,0 +1,84 @@
+@font-face {
+    font-family: cinthiaEdito;
+    src: url(ressources/TheCinthiaEdito.ttf);
+}
+
+
+body {
+    background-color: #262626;
+    background-size: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#centertext {
+    color: #ebebeb;
+    font-size: 1400%;
+    font-family: 'cinthiaEdito';
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    transition: 1s;
+}
+
+#centertext:hover {
+    color: greenyellow;
+    transition: 1s;
+}
+
+
+.textbox {
+    color: #454545;
+    background-color: whitesmoke;
+    width: 500px;
+    text-align: justify;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 5px;
+    transition: 1s;
+}
+
+.textbox:hover {
+    color: white;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+.text2box {
+    color: #454545;
+    background-color: whitesmoke;
+    width: 209px;
+    text-align: left;
+    padding: 2%;
+    margin: 0 12px 25px;
+    box-shadow: 5px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.text2box:hover {
+    color: white;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+    bottom: 0;
+    background-color: #262626;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#footer1 {
+    margin: 12.5px auto;
+    width: 500px;
+}

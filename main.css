@@ -30,7 +30,7 @@ body {
     background-color: whitesmoke;
     width: 500px;
     text-align: justify;
-    padding: 2%;
+    padding: 20px;
     margin: auto;
     margin-bottom: 25px;
     box-shadow: 5px;
@@ -41,29 +41,6 @@ body {
     color: white;
     background-color: greenyellow;
     transition: 1s;
-}
-
-.text2box {
-    color: #454545;
-    background-color: whitesmoke;
-    width: 209px;
-    text-align: left;
-    padding: 2%;
-    margin: 0 12px 25px;
-    box-shadow: 5px;
-    display: inline-block;
-    transition: 1s;
-}
-
-.text2box:hover {
-    color: white;
-    background-color: greenyellow;
-    transition: 1s;
-}
-
-#wrapper {
-    margin: auto;
-    text-align: center;
 }
 
 footer {
@@ -86,15 +63,39 @@ footer {
     color: #454545;
     background-color: whitesmoke;
     width: 500px;
+    height: auto;
     text-align: justify;
-    padding: 2%;
+    padding: 20px;
     margin: auto;
     margin-bottom: 25px;
     box-shadow: 5px;
     transition: 1s;
 }
 
+div img {
+    width: 100%;
+}
+
 .imgbox:hover {
     background-color: greenyellow;
     transition: 1s;
+}
+
+div span {
+    position: relative;
+    left: 82%;
+}
+
+@media only screen and (max-width: 500px) {
+    .textbox {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    
+    .imgbox {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin-bottom: 10%;
+    }
 }
